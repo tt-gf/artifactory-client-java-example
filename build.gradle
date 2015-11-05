@@ -1,3 +1,8 @@
+// Explicitly define the wrapper, so we can pin/upgrade the version
+task wrapper(type: Wrapper) {
+    gradleVersion = '2.4'
+}
+
 apply plugin: 'java'
 
 repositories {

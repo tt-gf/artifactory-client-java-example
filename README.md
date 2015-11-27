@@ -26,3 +26,8 @@ com.tomtom/MyGreaterPackage/myGreaterArtifact.zip
 ## Troubleshooting
 
 Re-enable the Artifactory client's debug logs in [Example.java](src/main/java/Example.java).
+
+## Variants
+
+[Here](https://gist.github.com/AurelienLourot/033a3c20942308580583) a variant deleting all artifacts
+of a repo based on criteria.
